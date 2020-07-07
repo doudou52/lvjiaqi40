@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:paddingTop="45dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="我的"
+                android:textColor="#000000"
+                android:textSize="25dp"></TextView>
+        </androidx.appcompat.widget.Toolbar>
+
+        <ImageButton
+            android:id="@+id/navigation_my_student_button"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:paddingHorizontal="20dp"
+            android:src="@color/colorPrimary"
+            tools:src="@tools:sample/backgrounds/scenic[5]"></ImageButton>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="#00756F6F"
+            ></View>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:paddingHorizontal="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="5dp"
+                android:layout_height="20dp"
+                android:background="#F73D06"
+                ></View>
+            <TextView
+                android:paddingLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的账户"
+                android:textSize="15dp"
+                ></TextView>
+        </LinearLayout>
+<LinearLayout
+    android:paddingLeft="4dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    >
+    <LinearLayout
+        android:layout_weight="1"
+
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="56dp"
+            android:layout_height="48dp"
+            android:src="@color/colorPrimary"
+            tools:src="@drawable/cc">
+
+        </ImageButton>
+        <TextView
+            android:text="0.00得到贝"
+            android:textSize="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="56dp"
+            android:layout_height="48dp"
+            android:src="@color/colorPrimary"
+            tools:src="@drawable/pp">
+
+        </ImageButton>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="56dp"
+            android:layout_height="48dp"
+            android:src="@color/colorPrimary"
+            tools:src="@drawable/xx">
+
+        </ImageButton>
+        <TextView
+            android:textSize="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#00756F6F"
+        ></View>
+    <LinearLayout
+        android:paddingHorizontal="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="5dp"
+                android:layout_height="20dp"
+                android:background="#F73D06"
+                ></View>
+            <TextView
+                android:paddingLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的内容"
+                android:textSize="15dp"
+                ></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingLeft="4dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="56dp"
+                    android:layout_height="48dp"
+                    tools:src="@tools:sample/backgrounds/scenic[15]">
+
+                </ImageButton>
+                <TextView
+                    android:text="0.00得到贝"
+                    android:textSize="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="56dp"
+                    android:layout_height="48dp"
+                    android:src="@color/colorPrimary"
+                    tools:src="@tools:sample/backgrounds/scenic[2]">
+
+                </ImageButton>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="56dp"
+                    android:layout_height="48dp"
+                    android:src="@color/colorPrimary"
+                    tools:src="@tools:sample/backgrounds/scenic[3]">
+
+                </ImageButton>
+                <TextView
+                    android:textSize="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="56dp"
+                    android:layout_height="48dp"
+                    android:src="@color/colorPrimary"
+                    tools:src="@tools:sample/backgrounds/scenic[9]">
+
+                </ImageButton>
+                <TextView
+                    android:textSize="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#00756F6F"
+        ></View>
+    <LinearLayout
+        android:paddingHorizontal="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="5dp"
+                android:layout_height="20dp"
+                android:background="#F73D06"
+                ></View>
+            <TextView
+                android:paddingLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="学习成就"
+                android:textSize="15dp"
+                ></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingLeft="4dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="56dp"
+                    android:layout_height="48dp"
+                    android:src="@color/colorPrimary"
+                    tools:src="@drawable/ic_home_black_24dp">
+
+                </ImageButton>
+
+                <TextView
+                    android:text="3.3小时"
+                    android:textSize="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="56dp"
+                    android:layout_height="48dp"
+                    android:src="@color/colorPrimary"
+                    tools:src="@android:drawable/ic_input_add">
+
+                </ImageButton>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="56dp"
+                    android:layout_height="48dp"
+                    android:src="@color/colorPrimary"
+                    tools:src="@android:drawable/ic_lock_lock">
+
+                </ImageButton>
+                <TextView
+                    android:textSize="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="56dp"
+                    android:layout_height="48dp"
+                    android:src="@color/colorPrimary"
+                    tools:src="@android:drawable/btn_star_big_on">
+
+                </ImageButton>
+                <TextView
+                    android:textSize="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#00756F6F"
+        ></View>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@color/colorPrimary"
+        tools:src="@tools:sample/backgrounds/scenic[5]"></ImageButton>
+<View
+    android:paddingLeft="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#8F8D8D"
+    ></View>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@color/colorPrimary"
+        tools:src="@tools:sample/backgrounds/scenic[5]"></ImageButton>
+    <View
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#8F8D8D"
+        ></View>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@color/colorPrimary"
+        tools:src="@tools:sample/backgrounds/scenic[5]"></ImageButton>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8F8D8D">
+
+</View>
+</LinearLayout>

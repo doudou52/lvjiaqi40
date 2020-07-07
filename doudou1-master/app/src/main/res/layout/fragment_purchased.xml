@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:paddingTop="45dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="祝我们组李煌同学生日快乐"
+                android:textColor="#000000"
+                android:textSize="25dp"></TextView>
+        </androidx.appcompat.widget.Toolbar>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="18dp"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="5dp"
+        android:textSize="15dp"
+
+        android:text="目标"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:paddingHorizontal="5dp"
+        android:text="成就"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="5dp"
+        android:textSize="15dp"
+
+        android:text="计划"></TextView>
+
+</LinearLayout>
+    </LinearLayout>
+
+    <!--    <androidx.viewpager.widget.ViewPager-->
+<!--        android:id="@+id/navigation_purchased_viewPager"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/navigation"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--    </androidx.viewpager.widget.ViewPager>-->
+
+
+</LinearLayout>

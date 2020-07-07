@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.android.imitationapp.ui.home.HomeFragment"
+        android:label="发现"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.android.imitationapp.ui.dashboard.DashboardFragment"
+        android:label="学习计划"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.android.imitationapp.ui.notifications.NotificationsFragment"
+        android:label="知识城邦"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_purchased"
+        android:name="com.android.imitationapp.ui.purchased.PurchasedFragment"
+        android:label="已购"
+        tools:layout="@layout/fragment_purchased" />
+    <fragment
+        android:id="@+id/navigation_my"
+        android:name="com.android.imitationapp.ui.my.MyFragment"
+        android:label="我的"
+        tools:layout="@layout/fragment_my" />
+
+</navigation>
